@@ -6,6 +6,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+    
+
 
 a,
 button {
@@ -74,6 +76,20 @@ a:hover {
 
 .bg-repeat {
     background: repeat;
+}
+.p-citation{
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-style: italic;
+    margin: auto;   
+}
+.p-citation strong{
+    font-weight: normal;   
+}
+.span-citation{
+    font-size: 14px;
 }
 
 .bg-t-edge {
@@ -361,6 +377,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
 
 @media (min-width: 768px) {
     .site-navigation {
