@@ -6,8 +6,20 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-    
-
+ .h4-bloc-center{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }   
+h4{    
+    width: 418px;
+    margin: auto;
+    font-size: 22px;
+}
+.h4-margin-top{
+    margin-top: 8px;
+}
 
 a,
 button {
