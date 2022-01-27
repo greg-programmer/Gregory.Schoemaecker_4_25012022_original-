@@ -65,7 +65,10 @@ abbr[title] {
 
 b,
 strong {
-    font-weight: 700
+    font-weight: 700;
+}
+.strong-h2{
+    font-weight: normal;
 }
 
 dfn {

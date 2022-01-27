@@ -98,7 +98,8 @@ a:hover {
     margin: auto;   
 }
 .p-citation strong{
-    font-weight: normal;   
+    font-weight: normal;  
+    display: contents; 
 }
 .span-citation{
     font-size: 14px;
