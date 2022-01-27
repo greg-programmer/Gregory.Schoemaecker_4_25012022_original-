@@ -1082,10 +1082,28 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb {
+        margin: auto;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .portfolio-thumb {
+        margin: auto;
+    }
+    .col-sm-12{
+          display: flex; 
+          flex-direction: column;
+          margin: auto;
+          width: 80%;
+          align-items: center;
+    }
+    .social{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
 }
