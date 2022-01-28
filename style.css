@@ -786,6 +786,9 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
+.col-sm-6 > .a-tablette-mobile{
+    display: none;
+}
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -1106,4 +1109,13 @@ h4 {
         width: 100%;
         justify-content: space-between;
     }
+}/*Adapter les images pour optimiser*/
+@media (max-width:1024px){
+    .col-sm-6 > .a-desktop{
+        display: none;
+    }
+    .col-sm-6 > .a-tablette-mobile{
+        display: block;
+    }
+
 }
