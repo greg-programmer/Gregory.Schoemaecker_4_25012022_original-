@@ -31,6 +31,12 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+.a-nav:active{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: white!important;
+    transition-duration: 0.2s;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -39,6 +45,10 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+.nav > li:active{   
+    background-color:#F3976C;
+    box-shadow: 1px 1px 4px #ff702d;
 }
 
 .bloc {
@@ -357,10 +367,6 @@ a:hover {
     font-size: 16px;
     transition-duration: 0.2s;    
     margin-left: 10px;     
-}
-.nav > li:hover{   
-    background-color:#F3976C;
-    box-shadow: 1px 1px 4px #ff702d;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -691,13 +697,6 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-.a-nav:hover {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: white!important;
-    transition-duration: 0.2s;
-}
-
 .container {
     max-width: 1000px;
 }
@@ -832,14 +831,6 @@ h4 {
     transition-duration: 0.3s;
     font-size: 1.6rem;
 }
-
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    box-shadow: 1px 1px 10px #ff702d;
-    color: #FFFFFF!important;    
-    transform: scale(1.2);
-}
-
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -888,6 +879,10 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .btn-atomic-tangerine:active {
+        background: #c27956!important;
+        transform: scale(1);               
     }
 }
 
@@ -1117,5 +1112,23 @@ h4 {
     .col-sm-6 > .a-tablette-mobile{
         display: block;
     }
-
 }
+@media (min-width:1025px){
+    .btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    box-shadow: 1px 1px 10px #ff702d;
+    color: #FFFFFF!important;    
+    transform: scale(1.2);
+    }
+    .nav > li:hover{   
+        background-color:#F3976C;
+        box-shadow: 1px 1px 4px #ff702d;
+    }
+    .a-nav:hover {
+        font-family: "helvetica";
+        font-weight: 400;
+        color: white!important;
+        transition-duration: 0.2s;
+    }
+}
+
